@@ -20,5 +20,5 @@ Resizing Pizzas
 ===============
 * The Biggest Problem with this portion of the application was calculating the exact same value inside a while loop. Since the values would not change, moving the outside of the loop massively increased efficiency. This flaw was found in the changePizzaSizes method with dx and newwidth being the repeated calculations.
 
-*I also noticed that the functions determineDx , changePizzaSizes, changeSliderLabel, and sizeSwitcher were being defined every time there was a call to the resizePizzas. This is unecessary since the definitions don't change, so moving them to he global scope results
+* I also noticed that the functions determineDx , changePizzaSizes, changeSliderLabel, and sizeSwitcher were being defined every time there was a call to the resizePizzas. This is unecessary since the definitions don't change, so moving them to he global scope results
 in less work.
