@@ -22,3 +22,5 @@ Resizing Pizzas
 
 * I also noticed that the functions determineDx , changePizzaSizes, changeSliderLabel, and sizeSwitcher were being defined every time there was a call to the resizePizzas. This is unecessary since the definitions don't change, so moving them to he global scope results
 in less work.
+
+* After these Changes The resizePizzas function ran wel within 5ms.
